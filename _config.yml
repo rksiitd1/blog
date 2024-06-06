@@ -1,0 +1,7 @@
+title: Simple Blog
+email: your-email@example.com
+description: >- 
+  A simple blog to write whatever I want.
+baseurl: "" 
+url: "https://your-username.github.io/simple-blog" 
+theme: minima
