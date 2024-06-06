@@ -1,8 +1,15 @@
 ---
 layout: home
-title: Welcome to My Blog
+title: Ratnesh Kumar Sharma's Blog
 ---
 
-# Welcome to My Blog
 
-This is the homepage of my simple blog where I write whatever I want.
+Welcome.  
+Explore AI, biotech, innovation.  
+Think deeply.  
+Question everything.  
+Ideas flourish.  
+Seek truth.  
+Find peace.  
+Enlightenment awaits.  
+Enter the realm of endless curiosity.
