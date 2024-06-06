@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Ratnesh Kumar Sharma's Blog
+title: Simple Blog
 ---
 
 
