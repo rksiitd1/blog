@@ -1,7 +1,58 @@
-title: Simple Blog
-email: your-email@example.com
-description: >- 
-  A simple blog to write whatever I want.
-baseurl: "" 
-url: "https://your-username.github.io/simple-blog" 
-theme: minima
+# Configuration file for Ratnesh Kumar Sharma's Blog
+
+# Site settings
+title: "Ratnesh Kumar Sharma's Blog"    # Title of the site
+email: rksiitd123@gmail.com             # Contact email
+description: >-                         # Site description (multiline)
+  A visionary's exploration of AI, biotech, and the intersection of innovation.
+baseurl: "/blog"                         # Base URL for the site (leave empty for root)
+url: "https://rksiitd1.github.io/blog/"  # URL of the site
+language: en                            # Site language (ISO 639-1 code)
+
+# Jekyll build settings
+markdown: kramdown                      # Markdown parser/renderer
+theme: minima                           # Theme for the site
+plugins:                                # List of Jekyll plugins (if any)
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:                                # Exclude directories/files from the build
+  - README.md                           # Exclude the README file
+  - Gemfile                             # Exclude Gemfile
+  - Gemfile.lock                        # Exclude Gemfile.lock
+  - node_modules/                       # Exclude the node_modules directory
+  - vendor/                             # Exclude the vendor directory
+
+# Build settings
+future: true                            # Enable building of future-dated posts
+show_drafts: false                      # Hide drafts in the built site
+incremental: false                      # Enable incremental builds
+timezone: "Asia/Kolkata"                # Timezone for site generation (Indian Standard Time)
+
+# SEO settings
+title_separator: "-"                   # Separator for page titles
+paginate: 10                           # Number of posts per page for pagination
+paginate_path: "/page:num/"            # Path for paginated pages
+permalink: pretty                      # Permalink style (pretty or none)
+permalink_defaults:                    # Default permalink structure for posts/pages
+  output: /:categories/:title/
+
+# Front Matter defaults
+defaults:
+  -
+    scope:
+      path: ""                         # Default scope (all files)
+    values:
+      layout: "default"                # Default layout for all files
+      author: "Ratnesh Kumar Sharma"  # Default author name
+
+# GitHub Pages settings
+github:
+  pages:
+    enabled: true                      # Enable GitHub Pages deployment
+    source: main                       # Source branch for GitHub Pages
+    destination: /                      # Destination directory for GitHub Pages
+
+# Other settings
+highlighter: rouge                     # Syntax highlighting
+sass:
+  style: compressed                    # Output style for Sass/SCSS
