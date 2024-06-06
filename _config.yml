@@ -4,7 +4,7 @@
 title: "Ratnesh Kumar Sharma's Blog"    # Title of the site
 email: rksiitd123@gmail.com             # Contact email
 description: >-                         # Site description (multiline)
-  A visionary's exploration of AI, biotech, and the intersection of innovation.
+  Delving into the depths of AI, biotech, and innovation.
 baseurl: "/blog"                         # Base URL for the site (leave empty for root)
 url: "https://rksiitd1.github.io/blog/"  # URL of the site
 language: en                            # Site language (ISO 639-1 code)
