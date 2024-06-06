@@ -9,19 +9,6 @@ baseurl: "/blog"                         # Base URL for the site (leave empty fo
 url: "https://rksiitd1.github.io/blog/"  # URL of the site
 language: en                            # Site language (ISO 639-1 code)
 
-# Jekyll build settings
-markdown: kramdown                      # Markdown parser/renderer
-theme: minima                           # Theme for the site
-plugins:                                # List of Jekyll plugins (if any)
-  - jekyll-feed
-  - jekyll-seo-tag
-exclude:                                # Exclude directories/files from the build
-  - README.md                           # Exclude the README file
-  - Gemfile                             # Exclude Gemfile
-  - Gemfile.lock                        # Exclude Gemfile.lock
-  - node_modules/                       # Exclude the node_modules directory
-  - vendor/                             # Exclude the vendor directory
-
 # Build settings
 future: true                            # Enable building of future-dated posts
 show_drafts: false                      # Hide drafts in the built site
