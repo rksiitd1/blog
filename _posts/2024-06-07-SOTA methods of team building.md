@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Team
+title: SOTA Team
 date: 2024-06-07  # Date of the post
 categories: [blogging, tutorial]  # Categories/tags for the post
 ---
